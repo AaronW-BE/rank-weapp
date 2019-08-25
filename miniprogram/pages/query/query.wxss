@@ -1,0 +1,13 @@
+
+.input-item{
+    background-color: #ffffff;
+    padding: 20rpx;
+}
+.input-label{
+    padding: 10px;
+    display: inline-block;
+}
+
+.btn{
+    margin: 20px;
+}

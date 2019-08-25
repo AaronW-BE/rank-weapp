@@ -1,0 +1,24 @@
+<view class="container">
+    <view class="header">
+        <view class="title">排名</view>
+        <view >
+        第
+        <text class="rank-value">{{rank}}</text>
+        名
+        </view>
+    </view>
+    <view class="body">
+        <view class="rank-wrapper">
+            <view class="rank-title cell-item">
+                <view class="index" >#</view>
+                <view class="name">姓名</view>
+                <view class="credit">分数</view>
+            </view>
+            <view wx:for="{{topList}}" class="cell-item underline">
+                <view class="index">{{index + 1}}</view>
+                <view class="name">{{item.name}}</view>
+                <view class="credit" >{{item.credit}}</view>
+            </view>
+        </view>
+    </view>
+</view>
