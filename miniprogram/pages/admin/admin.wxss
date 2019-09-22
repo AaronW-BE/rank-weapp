@@ -1,1 +1,13 @@
 /* miniprogram/pages/admin/admin.wxss */
+
+.action-wrapper{
+}
+.action-item{
+    margin-bottom: 5px;
+    padding: 20rpx;
+    background: #ffffff;
+    color: #1d1c1c
+}
+.action-btn{
+    width: 100%;
+}
