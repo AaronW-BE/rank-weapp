@@ -1,0 +1,15 @@
+<view>
+    <view class="header-wrap">
+        <view class="qrcode">
+            <image src="{{img}}" />
+        </view>
+    </view>
+
+    <view class="list-wrap">
+        <view class="list-item" wx:for="{{inviteUsers}}" wx:key="{{item._id}}">
+            <view>Aaron</view>
+            <view>{{ item.action }}</view>
+            <view>{{ item.create_time }}</view>
+        </view>
+    </view>
+</view>

@@ -8,7 +8,7 @@ Page({
     fileId: "cloud://env-qkkql.656e-env-qkkql-1300016576/excel/test.xlsx"
   },
 
-  handleChooseFile: function (){
+  handleChooseFile: function () {
     if (!wx.canIUse('chooseMessageFile')) {
       wx.showModal({
         title: "提示",
@@ -35,7 +35,7 @@ Page({
         wx.cloud.uploadFile({
           cloudPath: cloudPath,
           filePath: tempFiles[0].path,
-          success:(res) => {
+          success: (res) => {
             console.log(res)
             let {fileID} = res;
 
@@ -43,7 +43,7 @@ Page({
               fileId: fileID
             })
           },
-          fail(err){
+          fail(err) {
             console.log(err)
           }
         })
@@ -51,8 +51,8 @@ Page({
     })
   },
   // 先上传再更新
-  handleUpdateData(){
-    if(!this.data.fileId){
+  handleUpdateData() {
+    if (!this.data.fileId) {
       wx.showModal({
         title: "提示",
         content: '请先上传文件',
@@ -71,5 +71,15 @@ Page({
     }).catch(err => {
       console.log(err)
     })
+  },
+
+  handleCreateAdmin() {
+    wx.cloud.callFunction({
+      name: 'createAdmin',
+      data: {}
+    }).then(res => {
+      const {result} = res;
+      console.log(result);
+    }).catch(console.error);
   }
-})
+});

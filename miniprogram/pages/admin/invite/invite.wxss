@@ -1,0 +1,20 @@
+image{
+    width: 500rpx;
+    height: 500rpx;
+}
+
+.qrcode {
+    margin: 0 auto;
+    text-align: center;
+}
+.list-wrap {
+    margin: 2rem 1rem;
+}
+.list-item {
+    border-bottom: 1px solid #efefef;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: 5px;
+}

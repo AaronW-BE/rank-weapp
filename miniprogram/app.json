@@ -1,19 +1,20 @@
 {
   "pages": [
+    "pages/admin/invite/invite",
+    "pages/admin/join/join",
     "pages/query/query",
     "pages/index/index",
     "pages/admin/admin",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
     "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
     "pages/deployFunctions/deployFunctions",
     "pages/chooseLib/chooseLib",
     "pages/openapi/openapi",
     "pages/openapi/serverapi/serverapi",
     "pages/openapi/callback/callback",
     "pages/openapi/cloudid/cloudid",
-    "pages/queryDetail/queryDetail" 
+    "pages/queryDetail/queryDetail"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

@@ -12,6 +12,10 @@
             <view class="action-item" bindtap="handleUpdateData">
                 <view>更新数据</view>
             </view>
+
+            <view class="action-item" bindtap="handleCreateAdmin">
+                <view>新建管理员</view>
+            </view>
         </view>
     </view>
 </view>

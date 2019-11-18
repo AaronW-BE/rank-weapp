@@ -1,0 +1,9 @@
+<view>
+    <view>管理员身份确认</view>
+
+
+    <view class="btn-wrap">
+        <button type="primary" bindtap="handleAction" data-action='1'>确定</button>
+        <button bindtap="handleAction" data-action='0'>取消</button>
+    </view>
+</view>

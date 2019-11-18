@@ -20,8 +20,8 @@
 	},
 	"appid": "wx4d930e5d4715e9c9",
 	"projectname": "Ranking",
-	"libVersion": "2.8.0",
-	"simulatorType": "qywx_simulator_plugin",
+	"libVersion": "2.9.3",
+	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {
 		"qywx_simulator_plugin": "1.2.0"
 	},
