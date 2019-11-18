@@ -2,4 +2,10 @@
     <text class="input-label">姓名</text>
     <input type="text" class="input-item" placeholder="請輸入姓名" bindinput="handleInputChange" />
     <button type="primary" class="btn" bindtap="handleQuery">查詢</button>
+
+    <button bindtap="handleManageBtn" size="mini" class="mini-btn-center">管理</button>
+</view>
+
+<view>
+    <button wx:if="{{isWxWork}}" bindtap="handleQyLogin" size="mini" class="mini-btn-center">授权</button>
 </view>

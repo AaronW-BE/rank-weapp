@@ -21,9 +21,12 @@
 	"appid": "wx4d930e5d4715e9c9",
 	"projectname": "Ranking",
 	"libVersion": "2.8.0",
-	"simulatorType": "wechat",
-	"simulatorPluginLibVersion": {},
+	"simulatorType": "qywx_simulator_plugin",
+	"simulatorPluginLibVersion": {
+		"qywx_simulator_plugin": "1.2.0"
+	},
 	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+	"compileType": "miniprogram",
 	"condition": {
 		"search": {
 			"current": -1,

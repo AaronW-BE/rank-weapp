@@ -11,3 +11,8 @@
 .btn{
     margin: 20px;
 }
+
+.mini-btn-center{
+    display: inline-block;
+    margin: 0 auto;
+}
